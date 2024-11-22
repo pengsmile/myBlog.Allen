@@ -2,8 +2,10 @@ import CSSIcon from "@/public/icons/CSSIcon";
 import ExpressIcon from "@/public/icons/ExpressIcon";
 import HtmlIcon from "@/public/icons/HtmlIcon";
 import JavaIcon from "@/public/icons/JavaIcon";
+import VueIcon from "@/public/icons/vueIcon";
 import JSIcon from "@/public/icons/JSIcon";
 import MongoIcon from "@/public/icons/MongoIcon";
+import NestIcon from "@/public/icons/NestIcon";
 import MySQLIcon from "@/public/icons/MySQLIcon";
 import NextIcon from "@/public/icons/NextIcon";
 import NodeIcon from "@/public/icons/NodeIcon";
@@ -35,10 +37,11 @@ export default function SkillsBar() {
             <div className="flex gap-2 ">
               <ReactIcon className="skillsIcon" />
               <ViteIcon className="skillsIcon" />
-              <TailwindIcon className="skillsIcon" />
+              {/* <TailwindIcon className="skillsIcon" /> */}
+              <VueIcon className="skillsIcon" />
             </div>
             <div className="text-sm font-semibold text-muted-foreground">
-              React + Vite + Tailwind
+              React + Vite + Vue
             </div>
           </li>
         </ul>
@@ -47,7 +50,7 @@ export default function SkillsBar() {
       <div>
         <h3 className="mb-4 text-lg font-semibold">Backend</h3>
         <ul>
-          <li className="flex items-center gap-10 mb-2">
+          {/* <li className="flex items-center gap-10 mb-2">
             <div className="flex gap-2 ">
               <JavaIcon className="skillsIcon" />
               <SpringIcon className="skillsIcon" />
@@ -55,18 +58,20 @@ export default function SkillsBar() {
             </div>
 
             <div className="text-sm font-semibold text-muted-foreground">
-              Java + Spring Boot + MySQL
+              MySQL
             </div>
-          </li>
+          </li> */}
 
           <li className="flex items-center gap-10 mb-2">
             <div className="flex gap-2 ">
               <NodeIcon className="skillsIcon" />
-              <ExpressIcon className="skillsIcon" />
-              <MongoIcon className="skillsIcon" />
+              {/* <ExpressIcon className="skillsIcon" /> */}
+              <NestIcon className="skillsIcon" />
+              {/* <MongoIcon className="skillsIcon" /> */}
+              <MySQLIcon className="skillsIcon" />
             </div>
             <div className="text-sm font-semibold text-muted-foreground">
-              Node.js + Express + MongoDB
+              Node.js + NestJs + MySQL
             </div>
           </li>
         </ul>

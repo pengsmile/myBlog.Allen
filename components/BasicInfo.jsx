@@ -4,9 +4,9 @@ export default function BasisInfo() {
       <h2 className="mb-6 ml-2 text-xl text-green-200 opacity-60">About Me</h2>
       <ul className="flex flex-col gap-5 pl-6 text-sm list-disc opacity-80">
         <li>
-          👋 You can call me <span className="font-bold">Zephyr</span>,{" "}
-          <span className="font-bold">Zhihao</span> or{" "}
-          <span className="font-bold">智昊</span>.
+          👋 You can call me <span className="font-bold">Allen</span>.{" "}
+          {/* <span className="font-bold">Zhihao</span> or{" "} */}
+          {/* <span className="font-bold">智昊</span>. */}
         </li>
 
         <li>
@@ -16,26 +16,26 @@ export default function BasisInfo() {
             href="https://en.wikipedia.org/wiki/Amherst,_Massachusetts"
             target="_blank"
           >
-            Amherst, MA, US
+            China, suzhou
           </a>
           .
         </li>
         <li>
           ✈️ Lived in{" "}
-          <a
+          {/* <a
             className="font-bold"
             href="https://en.wikipedia.org/wiki/Minneapolis"
             target="_blank"
           >
             Minneapolis
           </a>
-          ,{" "}
+          ,{" "} */}
           <a
             className="font-bold"
             href="https://en.wikipedia.org/wiki/Wuhan"
             target="_blank"
           >
-            Wuhan
+            shanghai(上海)
           </a>
           ,{" "}
           <a
@@ -43,7 +43,7 @@ export default function BasisInfo() {
             href="https://en.wikipedia.org/wiki/Changsha"
             target="_blank"
           >
-            Changsha
+            suzhou(苏州)
           </a>{" "}
           in the past.
         </li>
