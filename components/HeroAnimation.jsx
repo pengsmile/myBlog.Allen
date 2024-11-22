@@ -3,9 +3,6 @@
 import React, { useState, useEffect } from "react";
 
 export default function HeroAnimation({ runningtext, speed = 100 }) {
-  if (!runningtext || !runningtext.length) {
-    return ''
-  }
   const [displayText, setDisplayText] = useState(runningtext[0]);
   const [currentIndex, setCurrentIndex] = useState(runningtext[0].length);
   const [playCurrentIndex, setPlayIndex] = useState(0);
@@ -14,8 +11,6 @@ export default function HeroAnimation({ runningtext, speed = 100 }) {
 
   useEffect(() => {
     const timeout = setTimeout(() => {
-      // (isText1 ? text1.length : text2.length)
-      
       if (
         typeStatus === "typing" &&
         currentIndex < (runningtext[playCurrentIndex].length)
